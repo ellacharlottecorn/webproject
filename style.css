@@ -1,19 +1,49 @@
 body {
-    background-image: url(media/background.png);
+    /*background-image: url(media/background.png);*/
+    background-color: #FFD2D4;
     background-attachment: fixed;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-.slideshow {
+nav {
+    background-color: #E38C92;
+    border-radius: 1em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.navclick {
+    color: white;
+    padding: 15px;
+}
+
+.navclick:hover {
+    background-color: #9A9A9A;
+    border-radius: 1em;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    padding: 15px;
+}
+
+h1, p, label {
+    color: #2C3551;
+}
+
+#slideshow {
     position: relative;
+    margin: auto;
   }
-#slide {
+.slide {
     text-align: center;
     padding: 50px;
 }
 .prev, .next {
     cursor: pointer;
     position: absolute;
+    position: fixed;
     top: 0;
     top: 50%;
     width: auto;
@@ -33,5 +63,60 @@ body {
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #2C3551;
+  }
+
+.orderform {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+  input[type=text] {
+      background-color: #2C3551;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      opacity: .8;
+      width: 100%;
+  }
+
+  input[type=submit] {
+      background-color: white;
+      padding: 12px 28px;
+      border: 3px solid #E38C92;
+      color: #2C3551;
+      border-radius: 5px;
+      width: 50%;
+      font-size: medium;
+  }
+
+  input[type=submit]:hover {
+    background-color: #E38C92;
+    border-radius: 5px;
+  }
+
+  select {
+    background-color: #2C3551;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    opacity: .8;
+    width: 100%;
+    font-size: medium;
+  }
+
+  textarea {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    background-color: #2C3551;
+    opacity: .8;
+    width: 100%;
+    padding: 15px;
+    font-size: medium;
+    border-radius: 5px;
+  }
+
+  .middle {
+      display: flex;
+      justify-content: center;
   }
