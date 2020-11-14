@@ -71,7 +71,7 @@ h1, p, label {
     padding-right: 70px;
 }
 
-  input[type=text] {
+  input[type=text], input[type=email] {
       background-color: #2C3551;
       border-radius: 5px;
       padding: 10px;
@@ -133,4 +133,13 @@ h1, p, label {
   .middle {
       display: flex;
       justify-content: center;
+  }
+
+  footer {
+    background-color: #E38C92;
+    padding: 10px;
+  }
+
+  hr {
+      border: 1px solid white;
   }
