@@ -8,12 +8,12 @@ body {
 nav {
     background-color: #E38C92;
     border-radius: 1em;
-    color: white;
+    color: #242B42;
     padding-bottom: 30px;
 }
 
 .navclick {
-    color: #2C3551;
+    color: #242B42;
     padding: 15px;
 }
 
@@ -22,7 +22,7 @@ nav {
     border: 1px solid white;
     border-radius: 1em;
     padding: 15px;
-    color: #2C3551;
+    color: #242B42;
 }
 
 .logo {
@@ -139,6 +139,10 @@ h1, p, label {
   footer {
     background-color: #E38C92;
     padding: 10px;
+  }
+
+  .copywrite {
+      color: #242B42;
   }
 
   hr {
