@@ -10,11 +10,15 @@ nav {
     border-radius: 1em;
     color: #242B42;
     padding-bottom: 30px;
+    font-size: x-large;
+    font-family: 'Pacifico', cursive;
 }
 
 .navclick {
     color: #242B42;
     padding: 15px;
+    font-size: x-large;
+    font-family: 'Pacifico', cursive;
 }
 
 .navclick:hover {
@@ -23,10 +27,34 @@ nav {
     border-radius: 1em;
     padding: 15px;
     color: #242B42;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
 }
 
 .logo {
     padding: 15px;
+    background-color: #E38C92;
+    border: 1px solid #E38C92;
+    border-radius: 1em;
+    margin: 15px;
+    float: left;
+}
+
+.logo:hover {
+    background-color: #FFD2D4;
+    border: 1px solid white;
+    border-radius: 1em;
+    padding: 15px;
+    margin: 15px;
+}
+
+h1, label {
+    font-family: 'Carter One', cursive;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+
 }
 
 h1, p, label {
@@ -79,6 +107,7 @@ h1, p, label {
       color: white;
       opacity: .8;
       width: 100%;
+      font-family: 'Carter One', cursive;
   }
 
   input[type=submit] {
@@ -89,6 +118,7 @@ h1, p, label {
       border-radius: 5px;
       width: 50%;
       font-size: medium;
+      font-family: 'Carter One', cursive;
   }
 
   input[type=submit]:hover {
@@ -98,6 +128,7 @@ h1, p, label {
 
   select {
     background-color: #2C3551;
+    font-family: 'Carter One', cursive;
     border-radius: 5px;
     padding: 10px;
     color: white;
@@ -107,7 +138,7 @@ h1, p, label {
   }
 
   textarea {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Carter One', cursive;
     color: white;
     background-color: #2C3551;
     opacity: .8;
@@ -147,4 +178,32 @@ h1, p, label {
 
   hr {
       border: 1px solid #2C3551;
+  }
+
+  .clear {clear: both;}
+
+  .about {
+      display: flex;
+  }
+
+  .aboutme {
+    flex: 1;
+    background-color: white;
+    border: 5px solid #E38C92;
+    color: #2C3551;
+    border-radius: 1em;
+    width: 100%;
+    padding: 15px;
+    margin: 1em;
+  }
+
+  .aboutproduct {
+    flex: 1;
+    background-color: white;
+    border: 5px solid #E38C92;
+    color: #2C3551;
+    border-radius: 1em;
+    width: 100%;
+    padding: 15px;
+    margin: 1em;
   }
