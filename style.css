@@ -9,7 +9,7 @@ nav {
     background-color: #E38C92;
     border-radius: 1em;
     color: #242B42;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     font-size: x-large;
     font-family: 'Pacifico', cursive;
 }
@@ -32,19 +32,18 @@ nav {
 }
 
 .logo {
-    padding: 15px;
     background-color: #E38C92;
     border: 1px solid #E38C92;
     border-radius: 1em;
     margin: 15px;
     float: left;
+
 }
 
 .logo:hover {
     background-color: #FFD2D4;
     border: 1px solid white;
     border-radius: 1em;
-    padding: 15px;
     margin: 15px;
 }
 
@@ -206,4 +205,8 @@ h1, p, label {
     width: 100%;
     padding: 15px;
     margin: 1em;
+  }
+
+  .test {
+    font-family: 'Pacifico', cursive;
   }
