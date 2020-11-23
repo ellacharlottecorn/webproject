@@ -9,7 +9,7 @@ nav {
     background-color: #E38C92;
     border-radius: 1em;
     color: #242B42;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     font-size: x-large;
     font-family: 'Pacifico', cursive;
 }
@@ -37,6 +37,7 @@ nav {
     border-radius: 1em;
     margin: 15px;
     float: left;
+    padding-top: 30px;
 
 }
 
@@ -198,6 +199,7 @@ h1, p, label {
 
 .logohead {
     width: 35%;
+    padding: 30px;
 }
 
   .aboutme {
