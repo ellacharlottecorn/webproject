@@ -48,7 +48,7 @@ nav {
     margin: 15px;
 }
 
-h1, h2, h3, label {
+h1, h2, h3, label, option {
     font-family: 'Carter One', cursive;
 }
 
@@ -188,8 +188,6 @@ h1, p, label {
   hr {
       border: 1px solid #2C3551;
   }
-
-  .clear {clear: both;}
 
   .about {
       display: flex;
