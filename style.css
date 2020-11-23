@@ -192,7 +192,6 @@ h1, p, label {
   .about {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
   }
 
 .logohead {
@@ -224,6 +223,7 @@ h1, p, label {
 
   .types {
       display: flex;
+      flex-wrap: wrap;
   }
 
   .normal {
