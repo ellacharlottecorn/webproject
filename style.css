@@ -5,6 +5,13 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
+@media only screen and (max-width: 750px) {
+    nav, .navclick {width: 100%; display: block; padding: 10px;}
+    .logo {width: 10%; display: inline; padding: 10px;}
+    .logohead {width: 100%;}
+    .line {display: none;}
+}
+
 nav {
     background-color: #E38C92;
     border-radius: 1em;
