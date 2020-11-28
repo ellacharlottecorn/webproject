@@ -15,11 +15,13 @@
             <a href="index.html"><img src="media/logo.png" alt="logo for ella corn creations" class="logo"></a> &nbsp;
              <div class="clear"></div> <span class="line"> |</span> 
             <a href="gallery.html" class="navclick">Gallery</a> <span class="line"> |</span> 
-            <a href="contact.html" class="navclick">Contact</a> <span class="line"> |</span> 
-            <a href="colors.html" class="navclick">Colors</a>
+            <a href="order.html" class="navclick">Order</a> <span class="line"> |</span> 
+            <a href="colors.html" class="navclick">Colors</a> <span class="line"> |</span> 
+            <a href="contact.html" class="navclick">Contact</a>
             <div class="clear"></div>
         </nav>
         <h1>Contact Me</h1>
+        <p>Fill out the form below to ask a question. If you would like to place an order, please fill out and submit an <a href="order.html">order</a>.</p>
         <div class="orderform">
             <form action="mailto:eccorn@syr.edu" method="post">
                 <label for="userName">Name:</label><br><br>
@@ -28,36 +30,8 @@
                 <input type="email" id="Uemail" name="Uemail"> <br> <br>
                 <label for="phone">Phone Number:</label> <br><br>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br> <br>
-                <label for="type">Product Type:</label> <br> <br>
-                <select id="type" name="type">
-                <option value="patch">Patch</option>
-                <option value="english">Bracelet w/ English Letters</option>
-                <option value="greek">Bracelet w/ Greek Letters</option>
-                <option value="pattern">Bracelet w/ Pattern</option>
-                <option value="custum">Custum</option>
-                </select> <br><br>
-                <label for="message">Enter Pattern and/or Message in Quotes: <br> (to search for existing patterns, visit <a href="https://friendship-bracelets.net/" target="_blank">FriendshipBracelets.net</a> or <a href="https://www.braceletbook.com/" target="_blank">BraceletBook.com</a>)</label><br><br>
-                <textarea id="message" name="message" rows="10" cols="30">EX: a daisy and/or "Go Orange"</textarea><br>
-                <label for="backgroundColor">Pick a Base Color</label>
-                <input type="color" id="backgroundColor" name="backgroundColor"> <br> <br>
-                <label for="patternColor">Pick a Pattern Color</label>
-                <input type="color" id="patternColor" name="patternColor"> <br> <br>
-                <label for="payment">Venmo Username:</label> <br> <br>
-                <input type="text" id="payment" name="payment"> <br> <br>
-                <label for="address">Shipping Address</label><br><br>
-                <input type="text" id="address" name="address"><br><br>
-                <label for="city">City</label><br><br>
-                <input type="text" id="city" name="city"><br><br>
-                <div class="state-zip">
-                    <div class="state">
-                        <label for="state">State</label><br><br>
-                        <input type="text" id="state" name="state" maxlength="2" minlength="2"><br><br>
-                    </div>
-                    <div class="zip">
-                        <label for="zip">Zip</label><br><br>
-                        <input type="text" id="zip" name="zip" maxlength="5" minlength="5"><br><br>
-                    </div>
-                </div>
+                <label for="message">Enter Message Here:</label><br><br>
+                <textarea id="message" name="message" rows="10" cols="30"></textarea><br><br>
                 <div class="middle">
                     <input type="submit" value="Submit"> <br>
                 </div>
