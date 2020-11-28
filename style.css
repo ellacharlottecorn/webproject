@@ -47,7 +47,6 @@ nav {
     margin: 15px;
     float: left;
     padding-top: 30px;
-
 }
 
 .logo:hover {
@@ -55,6 +54,7 @@ nav {
     border: 1px solid white;
     border-radius: 1em;
     margin: 15px;
+    padding-top: 30px;
 }
 
 h1, h2, h3, label, option {
@@ -134,6 +134,23 @@ h1, p, label {
   input[type=submit]:hover {
     background-color: #E38C92;
     border-radius: 5px;
+  }
+
+  .backgroundColor {
+    position: relative;
+  }
+  
+  .pick {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .backgroundColor:hover .pick {
+    display: block;
   }
 
   select {
