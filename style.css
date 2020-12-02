@@ -5,14 +5,6 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-@media only screen and (max-width: 750px) {
-    nav, .navclick {width: 100%; display: block; padding: 10px;}
-    .logo {width: 100%; display: block; padding: 10px;}
-    .logohead {width: 100%;}
-    .line {display: none;}
-}
-
-
 
 nav {
     background-color: #E38C92;
@@ -56,6 +48,18 @@ nav {
     border-radius: 1em;
     margin: 15px;
     padding-top: 30px;
+}
+
+.logohead {
+    width: 35%;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+    nav, .navclick {width: 100%; display: block; padding: 10px;}
+    .logo {width: 100%; display: block; padding: 10px;}
+    .logohead {width: 50%;}
+    .line {display: none;}
 }
 
 h1, h2, h3, label, option {
@@ -224,6 +228,7 @@ h1, p, label {
   .col {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
     margin-right: 1em;
   }
@@ -255,11 +260,6 @@ h1, p, label {
     margin: 5px;
     justify-content: center;
   }
-
-.logohead {
-    width: 35%;
-    padding: 30px;
-}
 
 .aboutme {
     flex: 1;
@@ -347,4 +347,19 @@ h1, p, label {
   
   #myBtn:hover {
     background-color: #E38C92;
+  }
+
+  .fab {
+    font-size: medium;
+    text-decoration: none;
+  }
+
+.fab:link {
+    color: #2C3551;
+    text-decoration: none;
+  }
+
+  .fab:visited {
+      color: #2C3551;
+      text-decoration: none;
   }
