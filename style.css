@@ -95,9 +95,9 @@ h1, p, label {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #E38C92;
     background-color: white;
     border: 3px solid #E38C92;
+    color: #2C3551;
     font-weight: bold;
     font-size: 35px;
     transition: 0.6s ease;
@@ -110,7 +110,7 @@ h1, p, label {
   }
   
   .prev:hover, .next:hover {
-    background-color: #2C3551;
+    background-color: #E38C92;
   }
 
 .orderform {
@@ -336,7 +336,7 @@ h1, p, label {
   }
 
   .caption {
-    font-size: x-small;
+    font-size: small;
   }
 
   #myBtn {
@@ -374,4 +374,8 @@ h1, p, label {
   .fab:visited {
       color: #2C3551;
       text-decoration: none;
+  }
+
+  .info {
+      display: none;
   }
